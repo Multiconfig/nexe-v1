@@ -10,7 +10,7 @@ preMerge:
     - "./test/**/*.spec.ts"
 preRun:
      command:
-        - npm ci
+        - npm i
 postRun:
      command:
         - node --version
